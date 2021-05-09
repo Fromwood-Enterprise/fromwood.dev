@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="statics/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      html,
+      body,
+      svg {
+        height: 100%;
+        width: 100%;
+      }
+      body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #d5dbde;
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+      <linearGradient xmlns="http://www.w3.org/2000/svg" id="linear">
+        <stop offset="0%" stop-color="#114b5f" />
+        <stop offset="60%" stop-color="#1a936f" />
+      </linearGradient>
+      <path
+        id="f2"
+        fill="url(#linear)"
+        d="M37 26 h28 a 4 4 0 1 1 0 8 h-28 a 4 4 0 1 1 0 -8 Z"
+      >
+        <animate attributeName="opacity" from="0" to="0" dur="1s" />
+        <animate begin="1s" attributeName="opacity" from="0" to="1" dur="1s" />
+        <animateTransform
+          attributeName="transform"
+          attributeType="XML"
+          type="translate"
+          from="100"
+          to="0"
+          dur="1s"
+          begin="1s"
+        />
+      </path>
+      <path
+        id="f3"
+        fill="url(#linear)"
+        d="M37 44 h16 a 4 4 0 1 1 0 8 h-16 a 4 4 0 1 1 0 -8 Z"
+      >
+        <animate attributeName="opacity" from="0" to="0" dur="1.2s" />
+        <animate
+          begin="1.2s"
+          attributeName="opacity"
+          from="0"
+          to="1"
+          dur="1s"
+        />
+        <animateTransform
+          attributeName="transform"
+          attributeType="XML"
+          type="translate"
+          from="-80"
+          to="0"
+          dur="1s"
+          begin="1.2s"
+        />
+      </path>
+      <path
+        id="f1"
+        fill="#114b5f"
+        d="M33 30 a 4 4 0 1 1 8 0 v40 a 4 4 0 1 1 -8 0 v-40 Z"
+      >
+        <animate attributeName="opacity" from="0" to="0" dur="0.8s" />
+        <animate
+          begin="0.8s"
+          attributeName="opacity"
+          from="0"
+          to="1"
+          dur="0.8s"
+        />
+        <animateTransform
+          attributeName="transform"
+          attributeType="XML"
+          type="translate"
+          from="0 -80"
+          to="0 0"
+          dur="1s"
+          begin="0.8s"
+        />
+      </path>
+      <path
+        id="e1"
+        fill="url(#linear)"
+        d="M48 66 H65 a 4 4 0 1 1 0 8 H48 a 4 4 0 1 1 0 -8 Z"
+      >
+        <animate attributeName="opacity" from="0" to="0" dur="1.6s" />
+        <animate
+          begin="1.6s"
+          attributeName="opacity"
+          from="0"
+          to="1"
+          dur="1s"
+        />
+        <animateTransform
+          attributeName="transform"
+          attributeType="XML"
+          type="translate"
+          from="100"
+          to="0"
+          dur="1s"
+          begin="1.6s"
+        />
+      </path>
+      <path
+        id="rect1"
+        fill="url(#linear)"
+        d="M12 12 H88 V88 H12 V12 L18 18 V82 H82 V18 H18 Z"
+      >
+        <animate attributeName="opacity" from="0" to="1" dur="1s" />
+      </path>
+    </svg>
+  </body>
+</html>
